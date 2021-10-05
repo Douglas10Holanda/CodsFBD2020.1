@@ -1,0 +1,17 @@
+-- TRIGGER FUNCTION
+
+CREATE OR REPLACE FUNCTION tf_add_aluno_turma()
+RETURNS TRIGGER AS
+$BODY$
+BEGIN
+	UPDATE Turma SET quantidadealunos = quantidadealunos + 1 WHERE turma_aluno.codturma = turma.codTurma;
+	RETURN NEW;
+END;
+$BODY$
+LANGUAGE plpgsql;
+
+
+-- TRIGGER
+
+CREATE TRIGGER trg_add_aluno_turma AFTER INSERT ON turma_aluno
+FOR EACH ROW EXECUTE PROCEDURE tf_add_aluno_turma();

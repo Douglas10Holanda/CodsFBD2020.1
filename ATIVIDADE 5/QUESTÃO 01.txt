@@ -1,0 +1,29 @@
+-- TRIGGER FUNCTION
+
+
+CREATE OR REPLACE FUNCTION tf_senha_professor()
+RETURNS TRIGGER AS 
+$BODY$
+BEGIN
+	IF(NEW.senhaProfessor != OLD.senhaprofessor) THEN
+		INSERT INTO LOG (descricaoLog) VALUES (concat('Senha alterada pelo Professor: ',NEW.nomeProfessor));
+	END IF;
+	RETURN NEW;
+END;
+$BODY$
+LANGUAGE plpgsql;
+
+
+-- TRIGGER
+
+
+CREAtE TRIGGER trg_senha_professor AFTER UPDATE ON professor
+FOR EACH ROW EXECUTE PROCEDURE tf_senha_professor();
+
+
+-- UPDATES
+
+
+UPDATE professor SET senhaprofessor = 'Dholanda123' WHERE codprofessor = 1;
+UPDATE professor SET senhaprofessor = 'Adriano2020' WHERE codprofessor = 2;
+UPDATE professor SET senhaprofessor = 'CR7TURIM' WHERE codprofessor = 3;

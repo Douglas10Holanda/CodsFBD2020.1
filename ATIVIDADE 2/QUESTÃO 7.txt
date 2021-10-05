@@ -1,0 +1,6 @@
+-- Column: public.convenio.nome
+
+-- ALTER TABLE public.convenio DROP COLUMN nome;
+
+ALTER TABLE public.convenio
+    ADD COLUMN nome character varying(200) COLLATE pg_catalog."default";

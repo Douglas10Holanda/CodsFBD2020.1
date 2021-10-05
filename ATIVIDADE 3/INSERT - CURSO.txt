@@ -1,0 +1,11 @@
+INSERT INTO public.curso(
+	numcurso, totalcreditos, nome)
+	VALUES (1, 248, 'Sistema de Informação');
+	
+INSERT INTO public.curso(
+	numcurso, totalcreditos, nome)
+	VALUES (2, 128,'Ciência da Computação');
+	
+INSERT INTO public.curso(
+	numcurso, totalcreditos, nome)
+	VALUES (3, 200, 'Engenharia da Computação');

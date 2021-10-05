@@ -1,0 +1,29 @@
+
+INSERT INTO professor(codprofessor, nomeprofessor, cpfprofessor, senhaprofessor, quantdisciplinas) VALUES 
+			(1, 'Douglas Holanda', '000.000.000-00', 'Douglas123', 1),
+			(2, 'Adriano Gomes', '111.111.111-11', 'adri1234', 2),
+			(3, 'Cristiano Ronaldo', '222.222.222-22', 'cr712345', 3);
+
+
+INSERT INTO Aluno(codaluno, nomealuno, cpfaluno, senhaaluno, statusaluno) VALUES 
+			(1, 'Vegeta Prince', '446516561161', 'supersay3', 1),
+			(2, 'Rei Yamcha', '789454654646', 'sdbzsay3', 1),
+			(3, 'kuririn Sama', '123154648888', 'sup44y3', 1),
+			(4, 'Gohan Son', '015156155615', 'abcd123', 2);
+
+
+
+INSERT INTO turma(codturma, nometurma, quantidadealunos) VALUES 
+			(1, 'BAGUNCINHA', 5),
+			(2, 'ANJOS', 10);
+
+
+INSERT INTO disciplina(coddisciplina, nomedisciplina, codprofessor) VALUES 
+			(1, 'fbd', '1'),
+			(2, 'MATEMATICA', '2');
+
+
+INSERT INTO nota(codnota, nota1sem, nota2sem, notafinal, codaluno, coddisciplina)VALUES 
+			(1, 8.5, 8.5, 8.5, 1, 1);
+			(2, 9.5, 9.5, 9.5, 2, 2);
+

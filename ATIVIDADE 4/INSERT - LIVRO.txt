@@ -1,0 +1,35 @@
+INSERT INTO public.livro(
+	idlivro, titulo, "preço", estoque, idgenero, ideditora)
+	VALUES (1, 'Pelas Ruas de Calcutá','R$36,10', 5, 1, 1);
+
+INSERT INTO public.livro(
+	idlivro, titulo, "preço", estoque, idgenero, ideditora)
+	VALUES (2, 'Devoted - Devoção','R$27,20', 4, 2, 2);
+
+INSERT INTO public.livro(
+	idlivro, titulo, "preço", estoque, idgenero, ideditora)
+	VALUES (3, 'Rápido e Devagar - Duas Formas de Pensar','R$43,90', 8, 3, 3);
+
+INSERT INTO public.livro(
+	idlivro, titulo, "preço", estoque, idgenero, ideditora)
+	VALUES (4, 'Xô, Bactéria! Tire Suas Dúvidas Com Dr. Bactéria','R$32,70', 6, 4, 4);
+	
+INSERT INTO public.livro(
+	idlivro, titulo, "preço", estoque, idgenero, ideditora)
+	VALUES (5, 'P.S. - Eu Te Amo','R$23,50', 10, 5, 5);
+	
+INSERT INTO public.livro(
+	idlivro, titulo, "preço", estoque, idgenero, ideditora)
+	VALUES (6, 'O Que Esperar Quando Você Está Esperando','R$37,80', 20, 4, 6);
+	
+INSERT INTO public.livro(
+	idlivro, titulo, "preço", estoque, idgenero, ideditora)
+	VALUES (7, 'As Melhores Frases Em Veja','R$23,90', 0, 6, 7);
+	
+INSERT INTO public.livro(
+	idlivro, titulo, "preço", estoque, idgenero, ideditora)
+	VALUES (8, 'Bichos Monstruosos','R$24,90', 12, 2, 6);
+	
+INSERT INTO public.livro(
+	idlivro, titulo, "preço", estoque, idgenero, ideditora)
+	VALUES (9, 'Casas Mal Assombradas','R$27,90', 0, 2, 6);

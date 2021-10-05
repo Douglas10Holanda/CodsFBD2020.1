@@ -1,0 +1,48 @@
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (1, 'Ramon Travanti', 'Física', 1);
+	
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (2, 'Ramon Travanti', 'Física', 4);
+
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (3, 'Marcos Salvador', 'Matemática', 7);
+
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (4, 'Marcos Salvador', 'Matemática', 3);
+	
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (5, 'Abgair', 'Matemática', 6);
+	
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (6, 'Abgair', 'Matemática', 9);
+	
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (7, 'Adriano Gomes', 'Banco de Dados', 2);
+	
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (8, 'Adriano Gomes', 'Banco de Dados', 5);
+	
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (9, 'Adriano Gomes', 'Banco de Dados', 8);
+	
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (10, 'Ronaldinho', 'Engenharia de Software', 10);
+	
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (11, 'Ronaldinho', 'Engenharia de Software', 11);
+	
+INSERT INTO public.professor(
+	numprofessor, nome, areapesquisa, numdisp)
+	VALUES (12, 'Ronaldinho', 'Engenharia de Software', 12);
+	

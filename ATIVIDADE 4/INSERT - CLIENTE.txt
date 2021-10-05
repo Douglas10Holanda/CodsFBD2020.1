@@ -1,0 +1,43 @@
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (1, 'João Silva', 1111);
+
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (2, 'Maria Cunha', 2222);
+
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (3, 'Pedro Aguiar', 8888);
+
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (4, 'Elaine Luciana', 9374);
+
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (5, 'Antonio Pereira', 3764);
+
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (6, 'Catarina Dias', 999);
+
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (7, 'Felipe Escolar', 8787);
+
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (8, 'Nando Caixinha', 5478);
+
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (9, 'Pelé Golias', 7811);
+
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (10, 'Tito Vardones', 7489);
+	
+INSERT INTO public.cliente(
+	idcliente, nome, telefone)
+	VALUES (11, 'Douglas da Silva Holanda', 4002);

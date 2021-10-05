@@ -1,0 +1,27 @@
+INSERT INTO public.editora(
+	ideditora, nome)
+	VALUES (1, 'Um');
+	
+INSERT INTO public.editora(
+	ideditora, nome)
+	VALUES (2, 'Dois');
+	
+INSERT INTO public.editora(
+	ideditora, nome)
+	VALUES (3, 'Três');
+	
+INSERT INTO public.editora(
+	ideditora, nome)
+	VALUES (4, 'Quatro');
+	
+INSERT INTO public.editora(
+	ideditora, nome)
+	VALUES (5, 'Cinco');
+	
+INSERT INTO public.editora(
+	ideditora, nome)
+	VALUES (6, 'Seis');
+	
+INSERT INTO public.editora(
+	ideditora, nome)
+	VALUES (7, 'Sete');

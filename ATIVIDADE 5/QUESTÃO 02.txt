@@ -1,0 +1,26 @@
+-- TRIGGER FUNCTION
+
+CREATE OR REPLACE FUNCTION tf_status_aluno()
+RETURNS TRIGGER AS 
+$BODY$
+BEGIN
+	IF(NEW.statusAluno != OLD.statusAluno) THEN
+	INSERT INTO LOG(descricaolog) VALUES(concat('Status alterado do Aluno: ',NEW.nomeAluno));
+	END IF;
+	RETURN NEW;
+END;
+$BODY$
+LANGUAGE plpgsql;
+
+
+-- TRIGGER
+
+CREATE TRIGGER trg_status_aluno AFTER UPDATE ON Aluno
+FOR EACH ROW EXECUTE PROCEDURE tf_status_aluno();
+
+-- UPDATE
+
+UPDATE 	Aluno SET statusaluno=1 WHERE codaluno=1;
+UPDATE 	Aluno SET statusaluno=2 WHERE codaluno=2;
+UPDATE 	Aluno SET statusaluno=2 WHERE codaluno=3;
+UPDATE 	Aluno SET statusaluno=1 WHERE codaluno=4;

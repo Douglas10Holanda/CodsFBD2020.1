@@ -1,0 +1,15 @@
+INSERT INTO public.atende(
+	crm, codconv)
+	VALUES (18739,189);
+	
+INSERT INTO public.atende(
+	crm, codconv)
+	VALUES (18739,908);
+	
+INSERT INTO public.atende(
+	crm, codconv)
+	VALUES (7646,232);
+	
+INSERT INTO public.atende(
+	crm, codconv)
+	VALUES (39872,189);

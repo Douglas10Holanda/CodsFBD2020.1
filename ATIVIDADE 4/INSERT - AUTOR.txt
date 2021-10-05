@@ -1,0 +1,39 @@
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (1, 'Roberto Martins Figueiredo');
+	
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (2, 'Daniel Kahneman');
+	
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (3, 'Hilary Duff');
+	
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (4, 'Robson Pinheiro');
+	
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (5, 'Cecelia Ahem');
+	
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (6, 'Arlene Einsenberg');
+	
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (7, 'Sandee Hathaway');
+	
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (8, 'Heidi Murkoff');
+	
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (9, 'Julio Cesar de Barros');
+	
+INSERT INTO public.autor(
+	idautor, nome)
+	VALUES (10, 'Maria José Valero');

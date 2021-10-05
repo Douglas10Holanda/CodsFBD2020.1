@@ -1,0 +1,15 @@
+INSERT INTO public.paciente(
+	codpac, nome, "endereço", telefone)
+	VALUES (1,'João', 'Rua 1',98099756);
+
+INSERT INTO public.paciente(
+	codpac, nome, "endereço", telefone)
+	VALUES (2,'José','Rua B',36218978);
+	
+INSERT INTO public.paciente(
+	codpac, nome, "endereço", telefone)
+	VALUES (3,'Maria','Rua 10',45679872);
+	
+INSERT INTO public.paciente(
+	codpac, nome, "endereço", telefone)
+	VALUES (4,'Joana','Rua J',33439889);

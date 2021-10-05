@@ -1,0 +1,39 @@
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (1, 'Espiritualismo');
+	
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (2, 'Infanto-Juvenil');
+	
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (3, 'Economia');
+	
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (4, 'Medicina');
+	
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (5, 'Romance');
+	
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (6, 'Historia');
+	
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (7, 'Fantasia');
+	
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (8, 'Auto-Ajuda');
+	
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (9, 'Informática');
+	
+INSERT INTO public.genero(
+	idgenero, "descrição")
+	VALUES (10, 'Humor');

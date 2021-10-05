@@ -1,0 +1,18 @@
+-- TRIGGER FUNCTION
+
+ CREATE OR REPLACE FUNCTION tf_nota_final()
+ RETURNS TRIGGER AS
+ $BODY$
+ BEGIN
+ 	UPDATE nota SET notafinal = (nota1sem + nota2sem) / 2 WHERE NEW.codnota = codnota;
+	RETURN NEW;
+END;
+$BODY$
+LANGUAGE plpgsql;
+
+
+-- TRIGGER
+
+
+CREATE TRIGGER trg_nota_final AFTER INSERT ON Nota
+FOR EACH ROW EXECUTE PROCEDURE tf_nota_final();

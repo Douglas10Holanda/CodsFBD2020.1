@@ -1,0 +1,3 @@
+UPDATE public.paciente
+	SET "endereço" = 'Rua do Bonde'
+	WHERE CODpac = 1;

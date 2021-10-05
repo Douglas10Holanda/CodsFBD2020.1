@@ -1,0 +1,18 @@
+INSERT INTO cliente(idcliente, nome, idade, cpf, endereco) VALUES 
+				   (1, 'Douglas Holanda', 20, '123456789-00', 'RUA A'),
+				   (2, 'Priscila Holanda', 14, '000456789-00', 'RUA B');
+				   
+				   
+INSERT INTO loja(idloja, nome, endereco) VALUES 
+				(1, 'RAIO DE SOL', 'RUA ABC'),
+				(2, 'RAIO DE LUA', 'RUA ABCD');
+
+INSERT INTO produtos(idprodutos, nome, valor, descricao, idloja) VALUES 
+					(1, 'Caneta', 2.00, 'CANETA PRETA', 1),
+					(2, 'Borracha', 1.00, 'Borracha Branca', 1),
+					(3, 'Caderno', 10.00, 'CADERNO DE CAPA DURA', 2);
+
+INSERT INTO pedido(idpedido, quantidade, idcliente, idprodutos)VALUES 
+				  (1, 2, 2, 2),
+				  (2, 3, 1, 1),
+				  (3, 1, 1, 3);

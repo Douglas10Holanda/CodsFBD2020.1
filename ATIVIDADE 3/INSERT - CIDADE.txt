@@ -1,0 +1,23 @@
+INSERT INTO public.cidade(
+	numcidade, nome)
+	VALUES (1, 'IGUATU');
+	
+INSERT INTO public.cidade(
+	numcidade, nome)
+	VALUES (2, 'ACOPIARA');
+	
+INSERT INTO public.cidade(
+	numcidade, nome)
+	VALUES (3, 'IRAPUAN PINHEIRO');
+	
+INSERT INTO public.cidade(
+	numcidade, nome)
+	VALUES (4, 'QUIXADÁ');
+	
+INSERT INTO public.cidade(
+	numcidade, nome)
+	VALUES (5, 'ICÓ');
+	
+INSERT INTO public.cidade(
+	numcidade, nome)
+	VALUES (6, 'FORTALEZA');

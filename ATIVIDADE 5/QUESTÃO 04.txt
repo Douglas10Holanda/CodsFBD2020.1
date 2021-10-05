@@ -1,0 +1,17 @@
+-- TRIGGER FUNCTION
+
+CREATE OR REPLACE FUNCTION tf_add_nota()
+RETURNS TRIGGER AS 
+$BODY$
+BEGIN
+	INSERT INTO LOG(descricaolog) VALUES(concat('Adicionando nota, NOTA: ',NEW.codNota,' Aluno: ',NEW.codAluno));
+	RETURN NEW;
+END;
+$BODY$
+LANGUAGE plpgsql;
+
+
+-- TRIGGER
+
+CREATE TRIGGER trg_add_nota AFTER INSERT ON Nota
+FOR EACH ROW EXECUTE PROCEDURE tf_add_nota();

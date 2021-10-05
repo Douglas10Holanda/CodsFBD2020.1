@@ -1,0 +1,52 @@
+CREATE TABLE IF NOT EXISTS Paciente(
+ CODpac integer,
+ nome varchar(40),
+ endereço varchar(40),
+ telefone integer,
+	CONSTRAINT Paciente_pkey PRIMARY KEY(CODpac)
+);
+
+CREATE TABLE IF NOT EXISTS Medico(
+ crm integer,
+ nome varchar(40),
+ endereço varchar(40),
+ telefone integer,
+ especialidade varchar(15),
+	CONSTRAINT Medico_pkey PRIMARY KEY(crm)
+);
+
+CREATE TABLE IF NOT EXISTS Convenio(
+ CODconv integer,
+ nome varchar(20),
+	CONSTRAINT Convenio_pkey PRIMARY KEY(CODconv)
+);
+
+CREATE TABLE IF NOT EXISTS Consulta(
+ CODconsulta integer,
+ data varchar(20),
+ horario varchar(10),
+ crm integer,
+ CODpac integer,
+ CODconv integer,
+ porcent varchar(10),
+	constraint Consulta_pkey PRIMARY KEY(CODconsulta),
+	constraint Consulta_fkey1 FOREIGN KEY(crm) REFERENCES Medico(crm),
+	constraint Consulta_fkey2 FOREIGN KEY(CODpac) REFERENCES Paciente(CODpac),
+	constraint Consulta_fkey3 FOREIGN KEY(CODconv) REFERENCES Convenio(CODconv)
+);
+
+CREATE TABLE IF NOT EXISTS Atende(
+ crm integer,
+ CODconv integer,
+	CONSTRAINT Atende_fkey1 FOREIGN KEY(crm) REFERENCES Medico(crm),
+    CONSTRAINT Atende_fkey2 FOREIGN KEY(CODconv) REFERENCES Convenio(CODconv)
+);
+
+CREATE TABLE IF NOT EXISTS Possui(
+ CODpac integer,
+ CODconv integer,
+ tipo varchar(10),
+ vencimento varchar(20),
+    CONSTRAINT Possui_fkey1 FOREIGN KEY(CODpac) REFERENCES Paciente(CODpac),
+	CONSTRAINT Possui_fkey2 FOREIGN KEY(CODconv) REFERENCES Convenio(CODconv)
+);

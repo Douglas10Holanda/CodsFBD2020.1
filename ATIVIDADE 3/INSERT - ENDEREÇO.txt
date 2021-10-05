@@ -1,0 +1,39 @@
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (1, 'Rua A', 1);
+	
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (2, 'Rua B', 2);
+
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (3, 'Rua C', 3);
+	
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (4, 'Rua D', 4);
+	
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (5, 'Rua E', 5);
+	
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (6, 'Rua F', 6);
+	
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (7, 'Rua G', 1);
+
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (8, 'Rua H', 2);
+	
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (9, 'Rua I', 3);
+	
+INSERT INTO public."endereço"(
+	"numendereço", nome_da_rua, numcidade)
+	VALUES (10, 'Rua J', 4);

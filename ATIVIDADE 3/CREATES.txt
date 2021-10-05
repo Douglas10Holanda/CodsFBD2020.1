@@ -1,0 +1,64 @@
+CREATE TABLE IF NOT EXISTS Curso(
+ numCurso integer,
+ totalCreditos integer,
+ nome varchar(40),
+	CONSTRAINT Curso_pkey PRIMARY KEY(numCurso)
+);
+
+CREATE TABLE IF NOT EXISTS Disciplinas(
+ numDisp integer,
+ nome varchar(40),
+ quantCreditos integer,
+ numCurso integer,
+	CONSTRAINT Disciplinas_pkey PRIMARY KEY(numDisp),
+	CONSTRAINT Disciplinas_fkey FOREIGN KEY(numCurso) REFERENCES Curso(numCurso)
+);
+
+CREATE TABLE IF NOT EXISTS Cidade(
+ numCidade integer,
+ Nome varchar(40),
+	CONSTRAINT Cidade_pkey PRIMARY KEY(numCidade)
+);
+
+CREATE TABLE IF NOT EXISTS Endereço(
+ numEndereço integer,
+ nome_da_rua varchar(70),
+ numCidade integer,
+	CONSTRAINT Endereço_pkey PRIMARY KEY(numEndereço),
+	CONSTRAINT Endereço_fkey FOREIGN KEY(numCidade) REFERENCES Endereço(numEndereço)
+);
+
+CREATE TABLE IF NOT EXISTS Aluno(
+ numAluno integer,
+ nome varchar(40),
+ telefone integer,
+ numCurso integer,
+ numCidade integer,
+ numEndereço integer,
+	CONSTRAINT Aluno_pkey PRIMARY KEY(numAluno),
+	CONSTRAINT Aluno_fkey1 FOREIGN KEY(numCurso) REFERENCES Curso(numCurso),
+	CONSTRAINT Aluno_fkey2 FOREIGN KEY(numCidade) REFERENCES Cidade(numCidade),
+	CONSTRAINT Aluno_fkey3 FOREIGN KEY(numEndereço) REFERENCES Endereço(numEndereço)
+);
+
+CREATE TABLE IF NOT EXISTS Professor(
+ numProfessor integer,
+ nome varchar(40),
+ areaPesquisa varchar(40),
+ numDisp integer,
+	CONSTRAINT Professor_pkey PRIMARY KEY(numProfessor),
+	CONSTRAINT Professor_fkey FOREIGN KEY(numDisp) REFERENCES Disciplinas(numDisp)
+);
+
+CREATE TABLE IF NOT EXISTS Aula(
+ semestre varchar(70),
+ nota real,
+ numAluno integer,
+ numProfessor integer,
+ numDisp integer,
+ numCurso integer,
+	CONSTRAINT Aula_fkey1 FOREIGN KEY(numAluno) REFERENCES Aluno(numAluno),
+	CONSTRAINT Aula_fkey2 FOREIGN KEY(numProfessor) REFERENCES Professor(numProfessor),
+	CONSTRAINT Aula_fkey3 FOREIGN KEY(numDisp) REFERENCES Disciplinas(numDisp),
+	CONSTRAINT Aula_Fkey4 FOREIGN KEY(numCurso) REFERENCES Curso(numCurso)
+);

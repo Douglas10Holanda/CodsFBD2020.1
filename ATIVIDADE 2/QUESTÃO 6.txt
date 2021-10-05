@@ -1,0 +1,25 @@
+-- Column: public.medico.especialidade
+
+-- ALTER TABLE public.medico DROP COLUMN especialidade;
+
+ALTER TABLE public.medico
+    ADD COLUMN especialização character varying(15) COLLATE pg_catalog."default";
+
+
+
+
+
+ou
+
+
+Databases
+	BOASAUDE
+		SCHEMAS
+			TABLES
+				MEDICO
+					COLUMNS
+						ESPECIALIDADE
+
+CLIQUEI COM O BOTÃO DIREITO EM CIMA DA COLUNA DE ESPECIALIDAE
+CLIQUEI EM PROPIEDADES
+E ALTEREI O NOME DE ESPECIALIDADE PARA ESPECIALIZAÇÃO

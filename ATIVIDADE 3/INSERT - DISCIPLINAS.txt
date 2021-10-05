@@ -1,0 +1,47 @@
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (1, 'Cálculo Numérico', 64, 1);
+	
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (2, 'Banco de Dados', 64,1);
+	
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (3, 'Matemática Discreta', 64, 1);
+	
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (4, 'Cálculo Numérico', 64, 2);
+	
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (5, 'Banco de Dados', 64, 2);
+	
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (6, 'Matemática Discreta', 64, 2);
+	
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (7, 'Cálculo Numérico', 64, 3);
+	
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (8, 'Banco de Dados', 64, 3);
+
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (9, 'Matemática Discreta', 64, 3);
+	
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (10, 'Engenharia de Software', 32, 1);
+	
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (11, 'Engenharia de Software', 32, 2);
+
+INSERT INTO public.disciplinas(
+	numdisp, nome, quantcreditos, numcurso)
+	VALUES (12, 'Engenharia de Software', 32, 3);

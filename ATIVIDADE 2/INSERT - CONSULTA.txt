@@ -1,0 +1,23 @@
+INSERT INTO public.consulta(
+	codconsulta, data, horario, crm, codpac, codconv, porcent)
+	VALUES (1,'10/05/2013','10:00',18739,1,189,5);
+
+INSERT INTO public.consulta(
+	codconsulta, data, horario, crm, codpac, codconv, porcent)
+	VALUES (2,'12/05/2013','10:00',7646,2,232,10);
+	
+INSERT INTO public.consulta(
+	codconsulta, data, horario, crm, codpac, codconv, porcent)
+	VALUES (3,'12/05/2013','11:00',18739,3,908,15);
+	
+INSERT INTO public.consulta(
+	codconsulta, data, horario, crm, codpac, codconv, porcent)
+	VALUES (4,'13/05/2013','10:00',7646,4,435,13);
+	
+INSERT INTO public.consulta(
+	codconsulta, data, horario, crm, codpac, codconv, porcent)
+	VALUES (5,'14/05/2013','13:00',7646,2,232,10);
+	
+INSERT INTO public.consulta(
+	codconsulta, data, horario, crm, codpac, codconv, porcent)
+	VALUES (6,'14/05/2013','14:00',39872,1,189,5);

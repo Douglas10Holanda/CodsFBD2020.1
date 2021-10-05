@@ -1,0 +1,87 @@
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (1, 1, 1, NULL);
+
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (1, 2, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (2, 2, 2, NULL);
+
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (2, 3, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (3, 4, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (4, 5, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (5, 5, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (6, 5, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (7, 6, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (8, 7, 2, NULL);
+
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (9, 8, 3, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (10, 9, 1, NULL);
+
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (11, 6, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (12, 1, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (13, 4, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (14, 7, 2, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (15, 9, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (16, 3, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (17, 8, 4, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (18, 2, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (19, 4, 1, NULL);
+	
+INSERT INTO public.itens_da_venda(
+	idvenda, idlivro, quantidade, subtotal)
+	VALUES (20, 6, 1, NULL);

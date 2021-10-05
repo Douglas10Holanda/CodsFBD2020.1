@@ -1,0 +1,61 @@
+CREATE TABLE IF NOT EXISTS Editora(
+ idEditora integer,
+ nome varchar(40),
+	CONSTRAINT Editora_pkey PRIMARY KEY(idEditora)
+);
+
+CREATE TABLE IF NOT EXISTS Genero(
+ idGenero integer,
+ descrição varchar(40),
+	CONSTRAINT Genero_pkey PRIMARY KEY(idGenero)
+);
+
+CREATE TABLE IF NOT EXISTS Autor(
+ idAutor integer,
+ nome varchar(40),
+	CONSTRAINT Autor_pkey PRIMARY KEY(idAutor)
+);
+
+CREATE TABLE IF NOT EXISTS Livro(
+ idLivro integer,
+ titulo varchar(70),
+ preço varchar(15),
+ estoque integer,
+ idGenero integer,
+ idEditora integer,
+	CONSTRAINT Livro_pkey PRIMARY KEY(idLivro),
+	CONSTRAINT Livro_fkey1 FOREIGN KEY(idGenero) REFERENCES Genero(idGenero),
+	CONSTRAINT Livro_fkey2 FOREIGN KEY(idEditora) REFERENCES Editora(idEditora)
+);
+
+CREATE TABLE IF NOT EXISTS Cliente(
+ idCliente integer,
+ nome varchar(40),
+ telefone integer,
+	CONSTRAINT Cliente_pkey PRIMARY KEY(idCliente)
+);
+
+CREATE TABLE IF NOT EXISTS Venda(
+ idVenda integer,
+ data varchar(20),
+ total varchar(20),
+ idCliente integer,
+	CONSTRAINT Venda_pkey PRIMARY KEY(idVenda),
+	CONSTRAINT Venda_fkey FOREIGN KEY(idCliente) REFERENCES Cliente(idCliente)
+);
+
+CREATE TABLE IF NOT EXISTS Itens_da_Venda(
+ idVenda integer,
+ idLivro integer,
+ Quantidade integer,
+ Subtotal varchar(20),
+	CONSTRAINT Itens_da_Venda_fkey1 FOREIGN KEY(idVenda) REFERENCES Venda(idVenda),
+	CONSTRAINT Itens_da_Venda_fkey2 FOREIGN KEY(idLivro) REFERENCES Livro(idLivro)
+);
+
+CREATE TABLE IF NOT EXISTS ESCREVE(
+ idLivro integer,
+ idAutor integer,
+	CONSTRAINT Escreve_pkey1 FOREIGN KEY(idLivro) REFERENCES Livro(idLivro),
+	CONSTRAINT Escreve_pkey2 FOREIGN KEY(idAutor) REFERENCES Autor(idAutor)
+);

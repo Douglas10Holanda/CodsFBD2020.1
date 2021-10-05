@@ -1,0 +1,18 @@
+-- TRIGGER FUNCTION
+
+CREATE OR REPLACE FUNCTION tf_nota_final_aluno()
+RETURNS TRIGGER AS 
+$BODY$
+BEGIN
+	IF(NEW.notafinal != OLD.notafinal) THEN
+	INSERT INTO LOG (decricaolog) VALUES (concat('Disciplina: ', NEW.nomedisciplina,'Aluno: ', NEW.codaluno,'Nota Final: ',NEW.notafinal));
+	END IF;
+	RETURN NEW;
+END
+$BODY$
+LANGUAGE plpgsql;
+
+-- TRIGGER
+
+CREATE TRIGGER trg_nota_final_aluno AFTER INSERT OR UPDATE ON nota 
+FOR EACH ROW EXECUTE PROCEDURE tf_nota_final_aluno();

@@ -1,0 +1,3 @@
+UPDATE public.medico
+	SET "endereço" = 'Rua Z',telefone = 98387867
+	WHERE crm = 18739;

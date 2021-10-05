@@ -1,0 +1,19 @@
+INSERT INTO public.convenio(
+	codconv, nome)
+	VALUES (189,'Cassi');
+	
+INSERT INTO public.convenio(
+	codconv, nome)
+	VALUES (232,'Unimed');
+	
+INSERT INTO public.convenio(
+	codconv, nome)
+	VALUES (454,'Santa Casa');
+	
+INSERT INTO public.convenio(
+	codconv, nome)
+	VALUES (908,'Copasa');
+	
+INSERT INTO public.convenio(
+	codconv, nome)
+	VALUES (435, 'São Lucas');

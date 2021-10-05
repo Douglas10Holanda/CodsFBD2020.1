@@ -1,0 +1,41 @@
+CREATE TABLE IF NOT EXISTS Loja(
+	idLoja int,
+	Nome VARCHAR(45),
+	Endereco VARCHAR(45),
+		CONSTRAINT Loja_pkey PRIMARY KEY(idLoja)
+);
+
+CREATE TABLE IF NOT EXISTS Cliente(
+	idCliente int,
+	Nome VARCHAR(45),
+	Idade INT,
+	CPF VARCHAR(12),
+	Endereco VARCHAR(45),
+	CONSTRAINT Cliente_pkey PRIMARY KEY(idCliente)
+);
+
+CREATE TABLE IF NOT EXISTS Produtos(
+	idProdutos int,
+	nome VARCHAR(45),
+	valor DECIMAL(10,2),
+	descricao VARCHAR(150),
+	idloja INT,
+		CONSTRAINT Produtos_pkey PRIMARY KEY(idProdutos),
+		CONSTRAINT Produtos_fkey FOREIGN KEY(idLoja) REFERENCES Loja(idLoja)
+);
+
+CREATE TABLE IF NOT EXISTS Pedido(
+	idPedido int,
+	quantidade int,
+	idCliente int,
+	idProdutos int,
+	CONSTRAINT Pedido_pkey PRIMARY KEY(idPedido),
+	CONSTRAINT Pedido_fkey1 FOREIGN KEY(idCliente) REFERENCES Cliente(idCliente),
+	CONSTRAINT Pedido_fkey2 FOREIGN KEY(idProdutos) REFERENCES Produtos(idProdutos)
+);
+
+CREATE TABLE IF NOT EXISTS Log(
+	idLog int,
+	descricao VARCHAR(200),
+	CONSTRAINT Log_pkey PRIMARY KEY(idLog)	
+);

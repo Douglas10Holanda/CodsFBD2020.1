@@ -1,0 +1,155 @@
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 9.5, 1, 1, 1,1);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.8, 1, 4, 2,1);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 7.0, 1, 7, 3,1);
+	
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.0, 1, 10, 10,1);	
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 10, 2, 1, 1,1);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.0, 2, 4, 2,1);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 7.5, 2, 7, 3,1);
+	
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 9.0, 2, 10, 10,1);	
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 4.5, 3, 1, 1,1);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 7.0, 3, 4, 2,1);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 2.5, 3, 7, 3,1);
+	
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 5.0, 3, 10, 10,1);	
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 2.5, 4, 2, 4,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 7.0, 4, 5, 5,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 9.5, 4, 8, 6,2);
+	
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 4.0, 4, 11, 11,2);
+		
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 7.5, 5, 2, 4,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 3.0, 5, 5, 5,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 9.5, 5, 8, 6,2);
+	
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.0, 5, 11, 11,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 9.5, 6, 2, 4,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 7.0, 6, 5, 5,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 3.5, 6, 8, 6,2);
+	
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 10.0, 6, 11, 11,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 5.5, 7, 2, 4,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.0, 7, 5, 5,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 9.5, 7, 8, 6,2);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 9.5, 8, 3, 7,3);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 7.0, 8, 6, 8,3);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.5, 8, 9, 9,3);
+	
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.0, 8, 12, 12,3);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 7.5, 9, 3, 7,3);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 4.0, 9, 6, 8,3);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 9.5, 9, 9, 9,3);
+	
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.0, 9, 12, 12,3);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.5, 10, 3, 7,3);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 10.0, 10, 6, 8,3);
+
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 3.5, 10, 9, 9,3);
+	
+INSERT INTO public.aula(
+	semestre, nota, numaluno, numprofessor, numdisp,numcurso)
+	VALUES ('1º Semestre de 1998', 8.0, 10, 12, 12,3);

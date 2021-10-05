@@ -1,0 +1,39 @@
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (1, 'Douglas Holanda', 1111, 1, 1, 1);
+	
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (2, 'Jon Snow', 2222, 1, 2, 2);
+	
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (3, 'Daenerys Targaryen', 3333, 1, 3, 3);
+	
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (4, 'Marcos João Casanova', 4444, 2, 4, 4);
+	
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (5, 'Ailton castro', 5555, 2, 5, 5);
+	
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (6, 'Edvaldo Carlos Silva', 6666, 2, 6, 6);
+	
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (7, 'Paula Fernandes', 7777, 2, 6, 7);
+	
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (8, 'Lionel Messi', 8888, 3, 4, 8);
+	
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (9, 'Cristiano Ronaldo', 9999, 3, 1, 9);
+	
+INSERT INTO public.aluno(
+	numaluno, nome, telefone, numcurso, numcidade, "numendereço")
+	VALUES (10, 'Claudia Leite', 1010, 3, 5, 10);

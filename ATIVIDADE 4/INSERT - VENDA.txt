@@ -1,0 +1,79 @@
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (1, '01/01/2012', 'R$30,00', 1);
+
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (2, '02/02/2012', 'R$60,00', 2);
+
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (3, '03/03/2012', 'R$90,00', 3);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (4, '04/04/2012', 'R$120,00', 4);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (5, '05/05/2012', 'R$50,00', 5);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (6, '06/06/2012', 'R$600,00', 6);
+	
+ INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (7, '07/07/2012', 'R$70,00', 7);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (8, '08/08/2012', 'R$85,00', 8);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (9, '09/09/2012', 'R$100,00', 9);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (11, '11/11/2012', 'R$99,00', 1);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (12, '12/12/2012', 'R$59,00', 2);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (13, '01/02/2011', 'R$46,00', 3);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (14, '02/01/2011', 'R$399,00', 4);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (15, '04/03/2011', 'R$42,00', 5);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (16, '04/03/2011', 'R$79,00', 6);
+
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (17, '06/05/2011', 'R$130,00', 7);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (18, '05/06/2011', 'R$245,00', 8);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (19, '06/07/2011', 'R$19,00', 9);
+	
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (10,'30/10/2013','R$39,00', 11);
+
+INSERT INTO public.venda(
+	idvenda, data, total, idcliente)
+	VALUES (20,'30/10/2013','R$29,00', 11);

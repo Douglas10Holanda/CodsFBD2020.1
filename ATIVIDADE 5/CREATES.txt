@@ -1,0 +1,59 @@
+create table if not exists professor(
+	codProfessor integer,
+	nomeProfessor varchar(45),
+	cpfProfessor varchar(45),
+	senhaProfessor varchar(45),
+	quantdisciplinas varchar(45),
+	constraint professor_pkey primary key (codProfessor)
+);
+
+create table if not exists disciplina(
+	codDisciplina integer,
+	nomeDisciplina varchar(45),
+	codProfessor integer,
+	constraint disciplina_pkey primary key (codDisciplina),
+	constraint disciplina_fkey foreign key (codProfessor) references professor(codProfessor)
+);
+
+create table if not exists aluno(
+	codAluno integer,
+	nomeAluno varchar(100),
+	cpfAluno varchar(45),
+	senhaAluno varchar(100),
+	statusAluno integer,
+	constraint Aluno_pkey primary key (codAluno)
+);
+
+create table if not exists nota(
+	codNota integer,
+	nota1sem decimal(2,1),
+	nota2sem decimal(2,1),
+	notafinal decimal(2,1),
+	codAluno integer,
+	codDisciplina integer,
+	constraint nota_pkey primary key (codNota),
+	constraint nota_fkey1 foreign key (codAluno) references aluno(codAluno),
+	constraint nota_fkey2 foreign key (codDisciplina) references disciplina(codDisciplina)
+);
+
+create table if not exists turma(
+	codTurma integer,
+	nomeTurma varchar(45),
+	quantidadealunos integer,
+	constraint turma_pkey primary key (codTurma)
+);
+
+create table if not exists turma_aluno(
+	codTurma_Aluno integer,
+	codAluno integer,
+	codTurma integer,
+	constraint turma_aluno_pkey primary key (codTurma_Aluno),
+	constraint turma_aluno_fkey1 foreign key (codAluno) references aluno(codAluno),
+	constraint turma_aluno_fkey2 foreign key (codTurma) references turma(codTurma)
+);
+
+create table if not exists log(
+	codLog serial,
+	descricaoLog varchar(45),
+	constraint codLog_pkey primary key (codLog)
+);

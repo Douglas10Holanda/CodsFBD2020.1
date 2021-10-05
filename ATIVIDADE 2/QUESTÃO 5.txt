@@ -1,0 +1,2 @@
+DELETE FROM public.consulta
+	WHERE CODconsulta = 6;

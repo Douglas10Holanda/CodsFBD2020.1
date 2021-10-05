@@ -1,0 +1,18 @@
+-- TRIGGER FUNCTION
+
+CREATE OR REPLACE FUNCTION tf_add_professor_disciplina()
+RETURNS TRIGGER AS 
+$BODY$
+BEGIN
+	UPDATE profesor SET quantdisciplinas = quantdisciplinas + 1 WHERE codprofessor = New.codprofessor;
+	RETURN NEW;
+END;
+$BODY$
+LANGUAGE plpgsql;
+
+
+
+-- TRIGGER
+
+CREATE TRIGGER trg_add_professor_disciplina AFTER INSERT ON disciplina
+FOR EACH ROW EXECUTE PROCEDURE tf_Add_professor_disciplina();

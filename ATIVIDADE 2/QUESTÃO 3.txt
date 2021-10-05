@@ -1,0 +1,19 @@
+UPDATE public.possui
+	SET tipo = 'S'
+	WHERE CODpac = 1;
+
+UPDATE public.possui
+	SET tipo = 'S'
+	WHERE CODpac = 2;
+	
+UPDATE public.possui
+	SET tipo = 'S'
+	WHERE CODpac = 3;
+	
+UPDATE public.possui
+	SET tipo = 'S'
+	WHERE CODpac = 4;
+	
+UPDATE public.possui
+	SET tipo = 'S'
+	WHERE CODpac = 1;

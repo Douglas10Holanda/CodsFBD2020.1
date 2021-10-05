@@ -1,0 +1,19 @@
+--- TRIGGER FUNCTION
+
+CREATE OR REPLACE FUNCTION tf_add_turma()
+RETURNS TRIGGER AS 
+$BODY$
+BEGIN
+	IF(NEW.codturma != OLD.codturma) THEN
+	INSERT INTO LOG(descricaolog) VALUES(concat('NOVA TURMA: ',NEW.nomeTurma));
+	END IF;
+	RETURN NEW;
+END;
+$BODY$
+LANGUAGE plpgsql;
+
+
+-- TRIGGER
+
+CREATE TRIGGER trg_add_turma AFTER INSERT ON Turma
+FOR EACH ROW EXECUTE PROCEDURE tf_add_turma();

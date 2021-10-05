@@ -1,0 +1,21 @@
+ALTER TABLE Consulta ADD Valor varchar(20)
+
+UPDATE public.consulta
+	SET valor = 'R$100,00'
+	WHERE CODconsulta = 1;
+	
+UPDATE public.consulta
+	SET valor = 'R$100,00'
+	WHERE CODconsulta = 2;
+	
+UPDATE public.consulta
+	SET valor = 'R$100,00'
+	WHERE CODconsulta = 3;
+	
+UPDATE public.consulta
+	SET valor = 'R$100,00'
+	WHERE CODconsulta = 4;
+	
+UPDATE public.consulta
+	SET valor = 'R$100,00'
+	WHERE CODconsulta = 5;
